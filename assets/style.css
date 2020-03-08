@@ -46,27 +46,36 @@ a:link, a:visited {
     text-decoration: none;
     float: left;
     padding-top: 4px;
-    border-right: 1px gray;
+    border-right: 1px solid lightgray;
 }
-    /* Header Css End */
+/* Header Css End */
 
 /* About Me Css Starts */
 
 .aboutMe {      
-    height:400px;
+    height:600px;
     width: 550px;
     background-color: #ffff;
     margin: 50px;
     padding: 20px;
+    border-bottom: 1px black;
 }
 
 h3 {
     color: cadetblue;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 20;
     padding-top: 30px;
-    border-bottom: 2px gray;
+    padding-bottom: 20px;
+    border-bottom:2px solid lightgray;
+}
+img {
+    margin-top: 10px;
+    padding: 10px;
+}
 
+p {
+    padding: 10px;
 }
 
 
