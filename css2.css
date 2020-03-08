@@ -1,28 +1,41 @@
 body {
     margin-left: 0px;
-    }
+    height: 100%;
+}
 .container {
-    height: 400px;
+    height: 800px;
     background-color: lightgray;
     padding: 0;
     border: 1px solid black;
-    }
+}
 
 .container:after {
     content: "";
     display: table;
     clear: both;
-    }
+}
+
+    /* Header Css Start */
+.navbar {
+    background-color: #ffff;
+    height: 75px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    background-color: cadetblue;
+    color: #ffff;
+    height: 75px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 ul {
     list-style-type: none;
-    }   
-
-.navbar {
-    background-color: #ffff;
-    margin: 0px;
-    padding: 0px;
-    }
+}   
 
 a:link, a:visited {
     display: block;
@@ -31,17 +44,37 @@ a:link, a:visited {
     color: gray;
     text-align: center;
     text-decoration: none;
-    text-transform: uppercase;
     float: left;
     padding-top: 4px;
     border-right: 1px gray;
-    }
-h2 {
-    background-color: cadetblue;
-    color: #ffff;
-    height: 50px;
-    margin-left: 50px;
-    margin-bottom: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-    }
+}
+    /* Header Css End */
+
+/* About Me Css Starts */
+
+.aboutMe {      
+    height:400px;
+    width: 550px;
+    background-color: #ffff;
+    margin: 50px;
+    padding: 20px;
+}
+
+h3 {
+    color: cadetblue;
+    margin-left: 20px;
+    margin-top: 20;
+    padding-top: 30px;
+    border-bottom: 2px gray;
+
+}
+
+
+
+
+
+
+
+
+
+
