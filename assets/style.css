@@ -1,42 +1,39 @@
 body {
-    margin-left: 0px;
+    margin: 0px
     
 }
-.container {
+.container-fluid {
     height: 800px;
     background-color: lightgray;
     padding: 0;
     border: 1px solid black;
-    
-    
     margin-bottom: 0px;
 }
 
-.container:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
-    /* Header Css Start */
+/* Header Css Start */
+
 .navbar {
     background-color: #ffff;
     height: 75px;
     margin: 0px;
     padding: 0px;
+    border: 1px solid gray;
+    width: 100%;
 }
 
 h2 {
     background-color: cadetblue;
     color: #ffff;
-    height: 75px;
-    margin-left: 50px;
+    height: 73px;
+    margin-left: 65px;
     margin-bottom: 0px;
     padding: 20px;
 }
 
 ul {
     list-style-type: none;
+    margin: 0px;
 }   
 
 a:link, a:visited {
@@ -47,10 +44,15 @@ a:link, a:visited {
     text-align: center;
     text-decoration: none;
     float: left;
-    padding: 6px;
-    padding-top: 8px;
+    margin: 0px;
+    padding: 0;
     border-right: 1px solid lightgray;
 }
+
+a:link, a:hover {
+    color: lightgray;
+}
+
 /* Header Css End */
 
 /* About Me Css Starts */
@@ -68,9 +70,7 @@ h3 {
     color: cadetblue;
     margin-left: 10px;
     margin-top: 20;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding: 20px;
     border-bottom:2px solid lightgray;
 }
 
@@ -92,7 +92,7 @@ p {
 
 .portfolio1 {
     height: 600px;
-    width: 500px;
+    width: 550px;
     background-color: #ffff;
     margin: 50px;
     padding: 20px;
@@ -100,6 +100,14 @@ p {
 }
 
 
+
+.pictures {
+    border: 1px solid black;
+    padding: 0px;
+    margin: 20px;
+    height: 100px;
+    width: 200px;
+}
 
 /* Portfolio CSS End */
 
@@ -142,8 +150,13 @@ input[type=submit]:hover {
     border-bottom: 1px black;
 }
 
+/* Contact CSS End */
 
-
+footer {
+    background-color: gray;
+    height: 50px;
+    border-top: 4px solid cadetblue;
+}
 
 
 
