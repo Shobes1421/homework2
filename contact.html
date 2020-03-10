@@ -11,34 +11,46 @@
 </head>
 
 ​<body>
-    <div class="container">
+    <div class="container-fluid">
+
         <header>
-            <nav class="navbar">
-                <h2>David Shober</h2>
-                <ul>
-                    <a href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
-                </ul>
-            </nav>
+            <div class="row">
+                <nav class="navbar">
+                    <h2>David Shober</h2>
+                    <ul>
+                        <a href="index.html">About</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
+                    </ul>
+                </nav>
+            </div>
         </header>
         
         <div class="contact">
-            <h3>Contact</h3>
             
-            <form action="/action_page.php">
-                <label for="fname">Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="John Smith">
-                
-                <label for="lname">Email</label>
-                <input type="text" id="lname" name="email" placeholder="Johnsmith@gmail.com">
-                
-                <label for="subject">Message</label>
-                <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
-                
-                <input type="submit" value="Submit">
-            </form>
+            <h3>Contact</h3>
+            <div class="row">
+                <form action="/action_page.php">
+                    <div class="col">
+                        <label for="fname">Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="John Smith">
+                    </div>
+                    <div class="col">
+                        <label for="fname">Email</label>
+                        <input type="text" id="fname" name="Email" placeholder="JohnSmith@gmail.com"> 
+                    </div>
+                    <div class="col">
+                        <label for="subject">Message</label>
+                        <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
+                    </div>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+            <footer>
 
+            </footer>
 
 
         
