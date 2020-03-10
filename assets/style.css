@@ -1,12 +1,12 @@
 body {
-    margin: 0px
+    margin: 0px;
 }
 .container-fluid {
-    height: 800px;
     background-color: lightgray;
-    padding: 0;
     border: 1px solid gray;
+    height: 850px;
     margin-bottom: 0px;
+    padding: 0px;
 }
 
 
@@ -14,10 +14,10 @@ body {
 
 .navbar {
     background-color: #ffff;
+    border: 1px solid gray;
     height: 75px;
     margin: 0px;
     padding: 0px;
-    border: 1px solid gray;
     width: 100%;
 }
 
@@ -39,10 +39,10 @@ a:link, a:visited {
     display: block;
     width: 120px;
     font-weight: bold;
+    
     color: gray;
     text-align: center;
     text-decoration: none;
-    float: left;
     margin: 0px;
     padding: 0;
     border-right: 1px solid lightgray;
@@ -78,6 +78,15 @@ img {
     padding-top: 20px;
 }
 
+.meDiv {
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 p {
     padding: 10px;
 }
@@ -97,12 +106,12 @@ p {
 
 
 
-.pictures {
+img {
     border: 1px solid black;
     padding: 0px;
     margin: 20px;
-    height: 100px;
-    width: 200px;
+    height: 125px
+
 }
 
 /* Portfolio CSS End */
