@@ -39,7 +39,7 @@ a:link, a:visited {
     display: block;
     width: 120px;
     font-weight: bold;
-    
+    float: right;
     color: gray;
     text-align: center;
     text-decoration: none;
@@ -81,11 +81,6 @@ img {
 .meDiv {
     float: right;
 }
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 p {
     padding: 10px;
@@ -104,15 +99,15 @@ p {
     border-bottom: 1px black;
 }
 
-
-
 img {
-    border: 1px solid black;
+    border: 1px solid gray;
     padding: 0px;
     margin: 20px;
+    width: 200px;
     height: 125px
-
 }
+
+
 
 /* Portfolio CSS End */
 
