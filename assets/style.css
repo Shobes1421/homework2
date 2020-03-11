@@ -52,7 +52,7 @@ a:link, a:hover {
     color: lightgray;
 }
 
-/* Header Css End */
+/* Header CSS End */
 
 /* About Me Css Starts */
 
@@ -73,9 +73,11 @@ h3 {
     border-bottom:2px solid lightgray;
 }
 
-img {
-    padding: 20px;
-    padding-top: 20px;
+.col img{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    
 }
 
 .meDiv {
