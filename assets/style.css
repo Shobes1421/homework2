@@ -109,6 +109,28 @@ img {
     height: 125px
 }
 
+.animationBox{
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: 35px;
+    right: 0;
+    height: 125px;
+    width: 200px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.animationBox:hover .overlay{
+    opacity: 1;
+}
+
+
 
 
 /* Portfolio CSS End */
