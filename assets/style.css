@@ -57,8 +57,8 @@ a:link, a:hover {
 /* About Me Css Starts */
 
 .aboutMe {      
-    height:600px;
-    width: 550px;
+    height:700pxx;
+    width: 800px;
     background-color: #ffff;
     margin: 50px;
     padding: 20px;
@@ -81,10 +81,11 @@ h3 {
 }
 
 .meDiv {
-    float: right;
+    
 }
 
 p {
+    
     padding: 10px;
 }
 
