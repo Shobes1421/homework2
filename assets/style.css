@@ -1,203 +1,96 @@
+
 body {
-    margin: 0px;
-}
-.container-fluid {
     background-color: lightgray;
-    border: 1px solid gray;
-    height: 850px;
-    margin-bottom: 0px;
-    padding: 0px;
 }
 
-
-/* Header Css Start */
-
-.navbar {
-    background-color: #ffff;
-    border: 1px solid gray;
-    height: 75px;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-}
-
-h2 {
+/* Navbar CSS */
+.myName {
+    border: 2px solid gray;
     background-color: cadetblue;
     color: #ffff;
-    height: 73px;
-    margin-left: 65px;
-    margin-bottom: 0px;
-    padding: 20px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0px;
-}   
-
-a:link, a:visited {
-    display: block;
-    width: 120px;
-    font-weight: bold;
-    float: right;
-    color: gray;
     text-align: center;
-    text-decoration: none;
+    padding: 0px;
     margin: 0px;
-    padding: 0;
-    border-right: 1px solid lightgray;
+    margin-right: 0px;
 }
 
-a:link, a:hover {
-    color: lightgray;
-}
-
-/* Header CSS End */
-
-/* About Me Css Starts */
-
-.aboutMe {      
-    height:700pxx;
-    width: 800px;
+.navHeader {
+    border: 2px solid gray;
     background-color: #ffff;
-    margin: 50px;
-    padding: 20px;
-    border-bottom: 1px black;
+    color: darkgray;
+    text-align: center;
+    padding: 0px;
+    padding-top: 7px;
 }
 
-h3 {
-    color: cadetblue;
-    margin-left: 10px;
-    margin-top: 20;
-    padding: 20px;
-    border-bottom:2px solid lightgray;
+a {
+    font-weight: bold;
+    color: gray;
+}
+/* Navbar CSS End */
+
+.aboutMeHeader {
+    background-color: cadetblue;
+    color: #ffff;
+    border: 2px solid gray;
 }
 
-.col img{
-    height: 150px;
-    width: 150px;
-    margin: 10px;
-    
-}
-
-.meDiv {
-    
+.me {
+    width: 200px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px solid gray;
+    margin-top: 17px;
 }
 
 p {
-    
-    padding: 10px;
+    padding-left: 210px;
+    padding-top: 20px;
 }
 
-/* About Me CSS End */
-
-/* Portfolio CSS Start */
-
-.portfolio1 {
-    height: 600px;
-    width: 550px;
+.boxStyling {
+    border: 2px solid gray;
     background-color: #ffff;
-    margin: 50px;
-    padding: 20px;
-    border-bottom: 1px black;
-}
-
-img {
-    border: 1px solid gray;
+    height: auto;
+    min-height: 420px;
+    margin: 0px;
     padding: 0px;
-    margin: 20px;
-    width: 200px;
-    height: 125px
 }
 
-.animationBox{
-    position: relative;
-}
-
-.overlay {
-    position: absolute;
-    top: 20px;
-    bottom: 0;
-    left: 35px;
-    right: 0;
-    height: 125px;
-    width: 200px;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: cadetblue;
-}
-
-.animationBox:hover .overlay{
-    opacity: 1;
-}
-.text {
+.fixed-bottom {
+    background-color: rgb(63, 58, 58);
     color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+}
+
+.portfolioPic {
+    height: 200px;
+    width: 400px;
+    background-color: gray;
+    border: 1px solid black;
+    margin: 10px;
     text-align: center;
 }
 
-
-/* Portfolio CSS End */
-
-/* Contact CSS start */
-
-form {
-    padding-left: 10px;
-    padding-top: 20px;
-    color: gray;
+.formBuffer {
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
-input[type=text], select, textarea {
-    width: 500px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 10px;
-    margin-bottom: 16px;
+.descriptionField {
+    height: 200px;
 }
 
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+.projectTitle {
+    text-align: center;
+    display: block;
+    margin: 0px;
 }
 
-input[type=submit]:hover {
-    background-color: #45a049;
+.footer {
+    background-color: cadetblue;
+    color: #ffff;
+    border:2px solid gray;
+    padding-right: 175px;
 }
-
-.contact {
-    height:650px;
-    width: 550px;
-    background-color: #ffff;
-    margin: 50px;
-    padding: 20px;
-    border-bottom: 1px black;
-}
-
-/* Contact CSS End */
-
-footer {
-    background-color: gray;
-    height: 50px;
-    border-top: 6px solid cadetblue;
-}
-
-
-
-
-
-
-
-
 
 
