@@ -27,6 +27,7 @@ a {
     font-weight: bold;
     color: gray;
 }
+
 /* Navbar CSS End */
 
 .aboutMeHeader {
@@ -43,12 +44,12 @@ a {
     margin-top: 17px;
 }
 
-p {
+.aboutPar {
     padding-left: 210px;
     padding-top: 20px;
 }
 
-.boxStyling {
+.mainStyling {
     border: 2px solid gray;
     background-color: #ffff;
     height: auto;
@@ -84,13 +85,14 @@ p {
     text-align: center;
     display: block;
     margin: 0px;
+    font-weight: bold;
+    color: gray;
 }
 
 .footer {
     background-color: cadetblue;
     color: #ffff;
     border:2px solid gray;
-    padding-right: 175px;
 }
 
 
