@@ -26,6 +26,7 @@ body {
 a {
     font-weight: bold;
     color: gray;
+    margin-left: 20px;
 }
 /* Navbar CSS End */
 
@@ -81,7 +82,7 @@ a {
 .projectTitle {
     text-align: center;
     display: block;
-    margin: 0px;
+    margin-top: 20px;
     font-weight: bold;
     color: gray;
 }
